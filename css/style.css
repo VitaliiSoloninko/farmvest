@@ -281,6 +281,9 @@ body {
 .menu__link {
   transition: color .3s ease 0s
 }
+.menu__link._navigator-active {
+  text-decoration: underline
+}
 .footer {
   background: rgba(53,64,70,.5)
 }
@@ -1802,6 +1805,7 @@ body {
     background-color: transparent
   }
   .menu__link:hover {
-    color: #23b123
+    color: #23b123;
+    text-decoration: underline
   }
 }
